@@ -1,0 +1,153 @@
+.cover-panel {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(-100%);
+    transform-origin: left;
+    transition: 0.5s;
+    will-change: transform;
+}
+
+.cover-panel.active {
+    transform: translateX(0);
+}
+
+.back-btn {
+    content: '';
+    position: fixed; 
+    z-index: 1000;
+    width: 50px;
+    height: 50px;
+    margin: 20px 0 0 20px;
+    padding: 0;
+    font-weight: normal;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: 0.5s 0.5s; /*2nd word delay*/
+    background: transparent;
+}
+
+.back-btn:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 60%;
+    height:1px;
+    background: #222;
+    transform: rotate(45deg);
+    transform-origin:left;
+
+}
+
+.project-view {
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.project-view-header {
+    padding: 4rem 0 1rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s 1s;/*add word delay*/
+}
+
+.project-view-header h1 {
+    margin-top: 2rem;
+    font-size:9.4vw;
+}
+
+.project-view-content {
+    padding: 1 rem 0;
+}
+
+.project-view-desc {
+    position: relative;
+    z-index: 100;
+    opacity: 0;
+    line-height: 1.6;
+    transform: translateY(50px);
+    transition: 0.5s 1.3s;
+}
+
+/*set the opposite delay animation*/
+
+.cover-panel.active .projet-view-header {
+    opacity: 0;
+    transform: translateY(0px);
+}
+
+.cover-panel.active .projet-view-desc {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cover-panel.close .projet-view-image {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cover-panel.active .back-btn {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.cover-panel.active .projet-view-image {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.cover-panel.close .projet-view-header {
+    opacity: 0;
+    transform: translateY(50px);
+    transition-duration: 0.2s;
+    transition-delay:0.4s;
+}
+
+.cover-panel.close .projet-view-desc {
+    opacity: 0;
+    transform: translateY(50px);
+    transition-duration: 0.25s;
+    transition-delay:0.2s;
+}
+
+.cover-panel.close .projet-view-image {
+    opacity: 0;
+    transform: translateY(50px);
+    transition-duration: 0.25s;
+    transition-delay:0s;
+}
+.cover-panel.close .back-btn {
+    opacity: 0;
+    transform: translateY(50px);
+    transition-duration: 0.25s;
+    transition-delay:0.6s;
+}
+
+@media (min-width: 600px) {
+    .project-view-content {
+        display:flex;
+        padding: 1rem 20px 5rem;
+    }
+
+    .project-view-header h1 {
+        margin-bottom:0.5em;
+    }
+
+    .project-view-image {
+        flex: 1 8 auto;
+        position: static;
+        width: 40%;
+        height: 0;
+        padding-bottom: 20%;
+        margin-right: 30px;
+        background-attachment: unset;
+    }
+
+    .project-view-desc {
+        padding: 0;
+    }
+}
