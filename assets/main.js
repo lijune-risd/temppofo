@@ -1,4 +1,5 @@
 import { data } from './data.js';
+import { ProjectView } from './ProjectView.js';
 
 /*import kalsu ilssnun is module // put type as module */
 
