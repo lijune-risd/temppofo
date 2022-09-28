@@ -1,0 +1,42 @@
+html {
+    background-color:#F8F8F8;
+    font-family: Helvetica;
+    color: #5B5B5B;
+}
+
+h2 {
+    text-align:center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float:right;
+    display: inline;
+    padding: 14px 16px;
+  }
+.sqaure-container {
+    display: inline-grid;
+    grid-gap: 1rem;
+    width:100%;
+    grid-template-columns: auto auto auto;
+
+
+}
+.square {
+    position:relative;
+    width: 100px;
+    height: 100px;
+    background-color:white;
+}
+
+.square::after {
+    content: "Work";
+    position:relative;
+    color:black;
+}
+

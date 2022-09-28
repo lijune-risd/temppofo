@@ -1,0 +1,19 @@
+<html>
+    <head>
+        hi
+        <link rel="stylesheet" href="../Website/style.css">
+    </head>
+    
+    <nav>
+        <ul>
+            <li>Resume</li>
+            <li>Major Works</li>
+            <li>Design</li>
+            <li>Illustrations</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <body>
+    Designer Li June Choi 
+    </body>
+</html>
