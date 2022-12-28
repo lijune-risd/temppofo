@@ -516,7 +516,7 @@ footer {
        }
 
     .sub-header{
-        margin-top: 5%; opacity: 0.4; 
+        margin-top: 10%; opacity: 0.4; 
         position:relative; background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
 		z-index: 1000;
         line-height: 1; 
