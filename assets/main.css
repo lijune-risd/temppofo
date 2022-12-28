@@ -326,10 +326,10 @@ button {
     }
   }
   .slider {
-    padding-top: 5.5%;
+    padding-top: 15%;
     /* background: white;  */
     /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
-    height:20em;
+    height:25em;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -383,7 +383,7 @@ button {
    }
 
    .sub-header{
-    margin-top: 5%; opacity: 0.4; 
+    margin-top: 15%; opacity: 0.4; 
     position:relative; background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
     z-index: 1000;
     line-height: 1; 
