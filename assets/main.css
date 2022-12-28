@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background:#F8F8F8;
+    background:black;
 }
 nav {
     z-index: 100000;
