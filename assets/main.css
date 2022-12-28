@@ -371,7 +371,7 @@ button {
   .name{
     position:absolute; top: 0; 
     height: 100vh;
-    background: linear-gradient(to right,  #F8F8F8 60%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
    z-index: 1000;
    line-height: 1; 
    font-size:9rem;
@@ -381,7 +381,7 @@ button {
 
    .sub-header{
     margin-top: 5%; opacity: 0.4; 
-    position:relative; background: linear-gradient(to right,  #F8F8F8 60%, rgba(255, 255, 255, 0) 100%);
+    position:relative; background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
     z-index: 1000;
     line-height: 1; 
     font-size:1rem;
@@ -504,7 +504,7 @@ footer {
 
     .name{
         position:absolute; top: 0; 
-        background: linear-gradient(to right,  #F8F8F8 60%, rgba(255, 255, 255, 0) 100%);
+        background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
        z-index: 1000;
        line-height: 1; 
        font-size:5rem;
@@ -514,7 +514,7 @@ footer {
 
     .sub-header{
         margin-top: 5%; opacity: 0.4; 
-        position:relative; background: linear-gradient(to right,  #F8F8F8 60%, rgba(255, 255, 255, 0) 100%);
+        position:relative; background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
 		z-index: 1000;
         line-height: 1; 
         font-size:1rem;
@@ -590,7 +590,7 @@ footer {
 
     .name{
      position:absolute; top: 0; 
-     background: linear-gradient(to right,  #F8F8F8 60%, rgba(255, 255, 255, 0) 100%);
+     background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
 	z-index: 1000;
     line-height: 1; 
     font-size:12rem;
