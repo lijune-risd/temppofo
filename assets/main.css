@@ -12,6 +12,7 @@ body {
     background:black;
 }
 nav {
+    position: absolute;
     z-index: 100000;
 }
 
@@ -369,7 +370,9 @@ button {
 
 
   .name{
-    position:absolute; top: 0; 
+    position: absolute;
+    top: 100px;
+    height: 500px;
     height: 100vh;
     background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
    z-index: 1000;
