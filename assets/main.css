@@ -602,6 +602,7 @@ footer {
 
     .subheader{
         font-size:1rem;
+	margin-top:2rem;
     }
     .width-setter {
         width: 1200px;
