@@ -595,6 +595,7 @@ footer {
      position:absolute; top: 100px; 
      background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
 	z-index: 1000;
+	    height:500px;
     line-height: 1; 
     font-size:12rem;
     transition: 0.5s ease-in-out;
