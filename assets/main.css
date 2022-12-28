@@ -592,7 +592,7 @@ footer {
     }
 
     .name{
-     position:absolute; top: 0; 
+     position:absolute; top: 100px; 
      background: linear-gradient(to right,  #000000 60%, rgba(255, 255, 255, 0) 100%);
 	z-index: 1000;
     line-height: 1; 
